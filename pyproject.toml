@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "timeseries_analysis"
+version = "0.1"
+authors = ["Harald G Svendsen"]
+description = "Time series analysis"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+psutil="5.9.3" #5.9.4 fails even with python 3.10
+numpy ="*"
+scipy ="*"
+pandas ="*"
+geopandas ="*"
+jupyterlab ="*"
+ipywidgets ="*"
+openpyxl ="*"
+matplotlib ="*"
+seaborn ="*"
+plotly ="*"
+folium ="*"
+geoplot ="*"
+
